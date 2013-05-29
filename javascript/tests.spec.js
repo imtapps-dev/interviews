@@ -1,7 +1,11 @@
-describe("tests", function(){
+describe("test something", function(){
+
+    it("should pass", function(){
+        expect(something()).toBeTruthy();
+    });
 
     it("should fail", function(){
-        expect(false).toEqual(true);
+        expect(something()).toBeFalsy();
     });
 
 });

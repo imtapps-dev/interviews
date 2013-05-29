@@ -10,13 +10,14 @@ basePath = '';
 files = [
   JASMINE,
   JASMINE_ADAPTER,
+  '*.js',
   '*.spec.js'
 ];
 
 
 // list of files to exclude
 exclude = [
-  
+  'karma.conf.js'
 ];
 
 
