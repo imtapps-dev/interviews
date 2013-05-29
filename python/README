@@ -1,0 +1,6 @@
+Directions for getting started
+
+1. create a virtualenv
+2. activate the virtualenv
+3. pip install -r requirements.txt
+4. ./tests.py

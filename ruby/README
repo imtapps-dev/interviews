@@ -1,0 +1,6 @@
+Directions for getting started
+
+1. create a gemset
+2. activate the gemset
+3. bundle install
+4. ./tests.rb

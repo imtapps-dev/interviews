@@ -1,0 +1,6 @@
+Directions for getting started
+
+
+1. npm install
+2. add node_modules/karma/bin to your path
+3. karma start
