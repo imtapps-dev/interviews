@@ -1,8 +1,8 @@
-describe "tests", =>
+describe "test something", =>
 
   it "should pass", =>
-    expect(true).toBeTruthy()
+    expect(something()).toBeTruthy()
 
   it "should fail", =>
-    expect(false).toBeTruthy()
+    expect(something()).toBeFalsy()
 
