@@ -2,8 +2,9 @@ import unittest
 import re
 
 
+# https://docs.python.org/3/library/re.html#re.search
 def the_method(arg):
-    if ',' in arg:
+    if re.search('[^\d]', arg):
         return sum(int(i) for i in re.split('[^\d]', arg))
     if len(arg) > 0:
         return int(arg)
